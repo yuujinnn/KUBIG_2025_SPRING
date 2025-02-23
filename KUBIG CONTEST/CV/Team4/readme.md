@@ -72,8 +72,12 @@
  'The clothing in the image, which includes a plaid shirt and a checkered shirt, is suitable for the fall and winter seasons. These patterns are often associated with colder weather and can provide warmth and comfort during the colder months.']
 
 ### (5) GPT-4
-    - 1차 리뷰 생성 결과
-    - 사용자 피드백 이후 최종 리뷰 생성 결과
+    > user_data = {
+    "tone": "애교 있음",
+    "fit": "잘 맞아요",
+    "satisfaction": 90
+} > Revised Review:
+ 이 분홍 체크무늬 크롭 셔츠, 정말 매력적인 스타일이네요! 👗🌸 봄이랑 여름에 입기 딱 좋아요. 가볍고 간편해서 덥지 않은 날씨에 입기에 최적입니당. 패턴도 너무 귀엽고, 탄탄한 느낌의 소재라서 자주 입어도 문제없을 것 같아요! 🤗그리고 이 크롭 길이 덕분에 핏도 너무 예쁘고 스타일리쉬하게 입을 수 있어서, 어떤 하의랑 매치해도 딱딱 맞는 느낌이에요. 완전 대만족입니당! 다음에는 다른 색상도 한 번 도전해보고 싶어졌어요.😆💖
 
 ### (6) ACGPN
 #### Before

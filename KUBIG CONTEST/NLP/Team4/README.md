@@ -16,7 +16,6 @@
 **유사 의료 답변 검색 (RAG 기반)**  
 - `new_reply_candidate.py`:  
   - `custom_search_just_query()` → **문장 임베딩 기반 유사도 검색**
-  - `custom_search_all()` → **키워드 + 문장 임베딩 결합 검색 (Hybrid Search)**  
 - `ChromaDB` 벡터스토어 활용하여 **사전 저장된 의료 데이터**에서 관련 문서 검색  
 
 **ChatUpstage API를 활용한 자연어 답변 생성**  

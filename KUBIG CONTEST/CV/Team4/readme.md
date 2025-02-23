@@ -76,3 +76,8 @@
     - 사용자 피드백 이후 최종 리뷰 생성 결과
 
 ### (6) ACGPN
+#### Before
+![image](https://github.com/KU-BIG/KUBIG_2025_SPRING/blob/main/KUBIG%20CONTEST/CV/Team4/images/before.png)
+
+#### After
+![image](https://github.com/KU-BIG/KUBIG_2025_SPRING/blob/main/KUBIG%20CONTEST/CV/Team4/images/after.png)

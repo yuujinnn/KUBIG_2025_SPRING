@@ -1,4 +1,4 @@
-# 🏥 RAG 기반 의료 Q&A 시스템 (ChatUpstage 기반)
+# 🏥 RAG 기반 의료 Q&A 시스템 
 
 ## 🔍 프로젝트 개요
 이 프로젝트는 **RAG (Retrieval-Augmented Generation) 기반의 의료 Q&A 시스템**을 구축하는 것을 목표로 합니다.  

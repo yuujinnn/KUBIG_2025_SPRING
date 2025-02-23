@@ -14,7 +14,8 @@ NLP Team1 장어구이
 
 https://kubig-nlpteam1-liargame.streamlit.app/
 
-![alt text](<스크린샷 2025-02-23 175237.png>)
+![스크린샷 2025-02-23 175237](https://github.com/user-attachments/assets/e8708adb-c498-49bf-8686-777abb1d10ac)
+
 
 
 ## 기능 개요
@@ -38,13 +39,15 @@ https://kubig-nlpteam1-liargame.streamlit.app/
     - KLUE-RoBERTa: 한국어 특화 문장 임베딩 모델
     - KoE5: BERT 기반의 E5 모델을 한국어에 맞게 Fine-tuning
     - 단어 후보들 위키피디아 문서 크롤링, 단어 전처리, 문장 단위 분할 후 임베딩 사전 학습
-    ![alt text](image-2.png)
+    ![image](https://github.com/user-attachments/assets/3d3f5e8d-c375-484d-a841-e0a6961e86be)
+
 - 모델 평가 지표
     - Recall@K: 정답이 상위 K개의 예측 내 포함될 확률 측정
     - MRR (Mean Reciprocal Rank): 정답이 처음 등장하는 순위의 역수 평균
     - NDCG (Normalized Discounted Cumulative Gain): 정답이 상위에 위치할수록 높은 점수 부여
     - 평가 결과
-    ![alt text](image-1.png)
+   <img width="265" alt="image" src="https://github.com/user-attachments/assets/04526124-536a-4768-9241-a19d24d4b899" />
+
 - 문장 유사도 기반 라이어 탐지 및 투표 시스템
     - KLUE-STS 데이터셋을 활용한 KLUE-RoBERTa 추가 학습
     - (1 - 평균 유사도) 값을 사용해 의심도 점수 부여 후 확률 기반 투표 진행

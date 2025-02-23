@@ -13,11 +13,12 @@
 (3) 원하는 리뷰 스타일 선택
 
 
+
 ## 1. Architecture
 
 ![Image](https://github.com/user-attachments/assets/ea0644a5-5cb1-4676-955d-39e09765aded)
 
-### segmentation
+### 1-1. segmentation
 
 
 

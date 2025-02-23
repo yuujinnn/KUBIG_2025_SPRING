@@ -44,6 +44,8 @@
 
 ![image](https://github.com/KU-BIG/KUBIG_2025_SPRING/blob/main/KUBIG%20CONTEST/CV/Team4/images/186.jpg)
 
+![image](https://github.com/KU-BIG/KUBIG_2025_SPRING/blob/main/KUBIG%20CONTEST/CV/Team4/images/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-02-23%20170609.png)
+
 - AI-Hub의 **K-패션 이미지**
 - 23가지 스타일 (ex. 페미닌, 스트리트, 모던 등)으로 분류되어 있음
 - 총 120만 장의 이미지 -> 23개의 스타일 중에서 6개의 스타일을 선정한 후, 각각 2000장씩 추출해서 총 12,000장을 training data로 사용
@@ -51,3 +53,8 @@
 - YOLO segmentation으로 학습하기 위한 yaml 파일 생성
 
 ## 3. Result
+
+- **segmentation**
+- **cropping**
+- **LLaVA**
+- ""GPT-4""

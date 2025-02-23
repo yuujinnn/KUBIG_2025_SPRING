@@ -57,4 +57,4 @@
 - **segmentation**
 - **cropping**
 - **LLaVA**
-- ""GPT-4""
+- **GPT-4**

@@ -54,23 +54,25 @@
 
 ## 3. Result
 
-- **test image**
+### (1) test image
   ![image](https://github.com/KU-BIG/KUBIG_2025_SPRING/blob/main/KUBIG%20CONTEST/CV/Team4/images/test_image_%EC%9B%90%EB%B3%B8.png)
 
-- **segmentation**
+### (2) segmentation
   ![image](https://github.com/KU-BIG/KUBIG_2025_SPRING/blob/main/KUBIG%20CONTEST/CV/Team4/images/test_image_seg.png)
 
-- **cropping**
+### (3) cropping
   ![image](https://github.com/KU-BIG/KUBIG_2025_SPRING/blob/main/KUBIG%20CONTEST/CV/Team4/images/test_image_cropped.png
 )
 
-- **LLaVA**
+### (4) LLaVA
   > ['The clothing in the image is described as having a cropped fit and a short length. This means that the clothing is not oversized or slim, but rather a more fitted and shorter version of the original design. The woman in the image is wearing a cropped shirt, which is a shorter version of a regular sh',
  'The color of the clothing is pink.',
  'The clothing in the image features a plaid pattern, which gives it a casual and stylish appearance. The woman is wearing a plaid shirt, and the design complements her overall look. The plaid pattern adds a touch of sophistication and character to the outfit, making it a fashionable choice for various',
  'The clothing in the image is made of plaid fabric.',
  'The clothing in the image, which includes a plaid shirt and a checkered shirt, is suitable for the fall and winter seasons. These patterns are often associated with colder weather and can provide warmth and comfort during the colder months.']
 
-- **GPT-4**
+### (5) GPT-4
     - 1차 리뷰 생성 결과
     - 사용자 피드백 이후 최종 리뷰 생성 결과
+
+### (6) ACGPN

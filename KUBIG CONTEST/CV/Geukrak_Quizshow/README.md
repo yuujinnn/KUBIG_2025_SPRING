@@ -22,7 +22,7 @@ We gathered **historical images** of Korean independence activists for model tra
 📁 `/results/`  
 - `/results/prepared_datas.jpeg`
 <p align="center">
-  <img src="results/prepared_datas.jpg" alt="data" width="400">
+  <img src="results/prepared_datas.jpeg" alt="data" width="400">
 </p>
 ---
 

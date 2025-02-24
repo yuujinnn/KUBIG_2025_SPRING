@@ -15,11 +15,11 @@
    - **Data Augmentation** (Resize, Horizontal Flip, Colorjitter, Cutmix)  
      ![Image](https://github.com/user-attachments/assets/d5edc9b0-8c19-448e-ab0a-4581737efd48)
      
-   - **Detection** (Yolov8 fine-tuning) : 고해상도 사진에서 새를 탐지해 bounding box, contour line의 좌표를 각각 학습시킨 뒤, 저해상도 사진과 해당 좌표 label를 yolo fine-tuning
+   - **Detection (Yolov8 fine-tuning)** : 고해상도 사진에서 새를 탐지해 bounding box, contour line의 좌표를 각각 학습시킨 뒤, 저해상도 사진과 해당 좌표 label를 yolo fine-tuning
      
      ![Image](https://github.com/user-attachments/assets/9ac33206-4941-4fdc-9276-b0367c7b8b27)
      
-   - **Super Resolution** (Real-ESRGAN) : test data upscaling
+   - **Super Resolution (Real-ESRGAN)** : test data upscaling
      
      ![Image](https://github.com/user-attachments/assets/a8ccf951-f01a-4758-9c81-2536e547f201)
   

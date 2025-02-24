@@ -9,6 +9,7 @@ This project aims to reconstruct **3D models** of Korean independence activists 
 ### **Cited Works**  
 - **Stable-DreamFusion** [(GitHub: https://github.com/ashawkey/stable-dreamfusion)](https://github.com/ashawkey/stable-dreamfusion)  
 - **DCO Fine-tuning Methodology** [(GitHub: https://github.com/kyungmnlee/dco)](https://github.com/kyungmnlee/dco)  
+
 - **Our Works of Implementing Fine-tuned Model to DreamFusion** [(GitHub: wltschmrz)](https://github.com/wltschmrz/stable_dreamfusion_deprecated)  
 ---
 
@@ -20,7 +21,7 @@ We gathered **historical images** of Korean independence activists for model tra
 **Dataset Preview:**  
 📁 `/results/`  
 - `/results/prepared_datas.jpg`
-- ![see data](/results/prepared_datas.jpeg)
+- ![see data]("results/prepared_datas.jpeg")
 ---
 
 ### **2. Fine-tuning with DCO**  

@@ -13,7 +13,7 @@
 난독화된 한글 리뷰를 원래의 명확한 내용의 리뷰로 복원하는 알고리즘을 개발하기!
 
 ## 🔓 전체 흐름
-- 한글 자모 분해, 각 자모의 position information 정보 활용
+- EDA : 한글 자모 분해, 각 자모의 position information 정보 활용
 - 1차 해독 : MLP
 - 2차 해독 : ELECTRA
 - 3차 해독 : 1차 해독 dataset를 KoGemma 7b 로 추론한 데이터 셋과 2차해독 데이터셋을 기반으로 Seq matcher (글자 수 유지를 위함)

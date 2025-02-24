@@ -13,7 +13,7 @@
 ## Tasks
 1. Preprocessing
    - Data Augmentation (Resize, Horizontal Flip, Colorjitter, Cutmix)
-     ![Image](https://github.com/user-attachments/assets/a97c1016-1a4c-49a3-94f1-6de26d7be54f)
+     <img src="https://github.com/user-attachments/assets/a97c1016-1a4c-49a3-94f1-6de26d7be54f.png  width="200" height="400"/>
    - Detection (Yolov8 fine-tuning)
    - Super Resolution (Real-ESRGAN)
   

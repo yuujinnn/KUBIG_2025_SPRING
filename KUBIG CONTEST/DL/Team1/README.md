@@ -12,14 +12,19 @@
 
 ## Tasks
 ### 1. Preprocessing
-   - Data Augmentation (Resize, Horizontal Flip, Colorjitter, Cutmix)
-     
-     <br>     
-     
+   - Data Augmentation (Resize, Horizontal Flip, Colorjitter, Cutmix)  
      ![Image](https://github.com/user-attachments/assets/d5edc9b0-8c19-448e-ab0a-4581737efd48)
+
+     <br>
      
    - Detection (Yolov8 fine-tuning)
+     - 고해상도 사진에서 새를 탐지해 bounding box, contour line의 좌표를 각각 학습시킨 뒤, 저해상도 사진과 해당 좌표 label를 yolo에 fine-tuning
+       ![Image](https://github.com/user-attachments/assets/f2b99a1c-11ba-40f9-97dc-831e61a5c155)
+
+      <br>
+   
    - Super Resolution (Real-ESRGAN)
+     ![Image](https://github.com/user-attachments/assets/e64fcd23-59ae-495e-bd05-cdc5573a71a3)
   
 ### 2. Classification
    - ViT (Vision Transformer) 기반 모델에 train/upscale train 데이터를 학습시킨 뒤, test 데이터에 대한 분류 진행

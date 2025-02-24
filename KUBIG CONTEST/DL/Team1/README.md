@@ -25,7 +25,7 @@
   
 ### 2. Classification
    - ViT (Vision Transformer) 기반 모델에 저해상도/고해상도 train data를 학습시킨 뒤, test data에 대한 분류 진행
-   - BEiT v2
+   - BEiT
    - SwinV2
 
 ## Results

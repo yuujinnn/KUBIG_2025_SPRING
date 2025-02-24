@@ -26,10 +26,35 @@ https://sites.wustl.edu/oasisbrains/
     Open Access Series of Imaging Studies (OASIS): Cross-Sectional MRI Data in Young, Middle Aged, Nondemented, and Demented Older Adults. Marcus, DS, Wang, TH, Parker, J, Csernansky, JG, Morris, JC, Buckner, RL. Journal of Cognitive Neuroscience, 19, 1498-1507. doi: 10.1162/jocn.2007.19.9.1498
 # 3. Method
 ## 1. Text data
+### Text 데이터 정제
+#### 기존 text 데이터
+* MRI 영상을 촬영한 사람의 성별, 나이, 치매 등 다양한 임상 정보를 포함
+#### 정제된 text 데이터
+* 촬영한 사람의 성별, 나이를 text prompt로 활용할 수 있게 정제
+<img width="871" alt="Screenshot 2025-02-24 at 10 00 22 PM" src="https://github.com/user-attachments/assets/7f9bb489-e780-407b-9728-800079fe4153" />
 
 ## 2. MRI data
+### Image 데이터 정제
+#### 기존 image 데이터
+* 헤더 파일 + img 파일
+#### 정제된 image 데이터
+* (256, 256, 128) 형태의 Nifti 파일
+* nibabel python library를 이용하여 확장자 변환
+### Image 데이터 embedding
+![logo](https://github.com/user-attachments/assets/f1a1d028-c234-43a2-b49d-629185019134)
+
+* ResNet encoder를 기반으로, 여러 모달리티의 메디컬 데이터셋에 pretrained된 MedicalNet 사용
+
+        @article{chen2019med3d,
+            title={Med3D: Transfer Learning for 3D Medical Image Analysis},
+            author={Chen, Sihong and Ma, Kai and Zheng, Yefeng},
+            journal={arXiv preprint arXiv:1904.00625},
+            year={2019}
+        }
 
 ## 3. Multimodal embedding
+* Concatenate 방식
+* 
 
 # 4. Results
 

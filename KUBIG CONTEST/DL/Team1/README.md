@@ -7,8 +7,8 @@
 저해상도의 조류 이미지로부터 종을 정확히 분류할 수 있는 AI 알고리즘 개발  
 
 ## Datasets
-- train, upscale train (256 x 256) 15,834장
-- test (64 x 64) 6,786장
+- train, upscale train (256 x 256) : 15,834장
+- test (64 x 64) : 6,786장
 
 ## Tasks
 ### 1. Preprocessing

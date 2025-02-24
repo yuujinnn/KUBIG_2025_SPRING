@@ -4,7 +4,7 @@
 
 
 ## 1. 데이터 개요
-![이미지 설명](KUBIG CONTEST/CV/두더비/images/16.PNG)
+![데이터 출처](images/16.PNG)
 
 - AIHUB 반려동물 구분을 위한 동물 영상 데이터
 - CAT 폴더만 활용

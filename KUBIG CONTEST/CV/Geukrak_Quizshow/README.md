@@ -120,3 +120,9 @@ transformers==4.30.2
 
 numpy==1.24.4
 ```
+
+---
+
+## References  
+- Stable-DreamFusion: [GitHub](https://github.com/ashawkey/stable-dreamfusion)  
+- DCO: [GitHub](https://github.com/kyungmnlee/dco)  

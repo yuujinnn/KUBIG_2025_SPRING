@@ -11,14 +11,14 @@
 - test (64 x 64) 6,786
 
 ## Tasks
-1. Preprocessing
+### 1. Preprocessing
    - Data Augmentation (Resize, Horizontal Flip, Colorjitter, Cutmix)  
      ![Image](https://github.com/user-attachments/assets/d5edc9b0-8c19-448e-ab0a-4581737efd48)
      
    - Detection (Yolov8 fine-tuning)
    - Super Resolution (Real-ESRGAN)
   
-2. Classification
+### 2. Classification
    - ViT (Vision Transformer) 기반 모델에 train/upscale train 데이터를 학습시킨 뒤, test 데이터에 대한 분류 진행
    - BEiT v2
    - SwinV2

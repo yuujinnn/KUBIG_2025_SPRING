@@ -20,7 +20,7 @@
      ![Image](https://github.com/user-attachments/assets/9ac33206-4941-4fdc-9276-b0367c7b8b27)
      
    - Super Resolution (Real-ESRGAN) : test data upscaling
-     ![Image](https://github.com/user-attachments/assets/e64fcd23-59ae-495e-bd05-cdc5573a71a3)
+     ![Image](https://github.com/user-attachments/assets/19dff8f5-a0db-4249-8f23-35778632c97a)
   
 ### 2. Classification
    - ViT (Vision Transformer) 기반 모델에 저해상도/고해상도 train data를 학습시킨 뒤, test data에 대한 분류 진행

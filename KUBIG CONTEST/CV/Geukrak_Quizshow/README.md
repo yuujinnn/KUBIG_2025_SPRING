@@ -125,4 +125,4 @@ numpy==1.24.4
 
 ## References  
 - Stable-DreamFusion: [GitHub](https://github.com/ashawkey/stable-dreamfusion)  
-- DCO: [GitHub](https://github.com/kyungmnlee/dco)  
+- DCO(Direct Consistency Optimization): [GitHub](https://github.com/kyungmnlee/dco)  

@@ -3,11 +3,42 @@
 - 멀티모달을 활용한 유사도 기반 반려 동물 영상 행동 분석 AI
 
 
+
+
 ## 1. 데이터 개요
 ![데이터 출처](images/16.PNG)
+
+
 
 - AIHUB 반려동물 구분을 위한 동물 영상 데이터
 - CAT 폴더만 활용
 - 이미지, 라벨링 데이터로 구성
-- arch, armstretch, footpush, getdown, grooming, heading, laydown, lying, roll, sitdown, tailing, walkrun 항목으로 구성
+- Arch, Armstretch, Footpush, Getdown, Grooming, Heading, Laydown, Lying, Roll, Sitdown, Tailing, Walkrun 항목으로 구성
+
+
+
+
+
+## 2. 데이터 전처리
+- 이미지 전처리 : 영상 프레임 수집 및 동기화, 이미지 변환, 이미지 패딩
+- 텍스트 전처리 : 레이블 생성 및 번역, 텍스트 토큰화 및 패딩
+
+
+
+## 3. 모델 구조
+![모델 사진](images/17.PNG)
+- ViT + GPT로 비디오 영상 처리하기
+- 비디오를 프레임 여러 개로 나누기
+- ViT로 각 프레임의 임베딩 벡터 추출
+- 벡터들의 평균, 합산 등으로 하나의 벡터로 변환
+- 최종 벡터를 GPT에 넣어서 최종 비디오의 설명 생성
+
+
+
+![모델 사진](images/18.PNG)
+- cross attention에서는 GPT와 ViT 사이의 정보 교환이 이루어짐
+- query(gpt) : gpt에서 생성한 텍스트 토큰을 query로 사용
+- key/value(vit) : vit에서 생성한 이미지 임베딩을 key와 value로 사용
+- 결론적으로 vit에서 생성한 이미지 임베딩을 gpt가 참조할 수 있도록 연결 !
+
 

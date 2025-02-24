@@ -26,7 +26,23 @@ We gathered **historical images** of Korean independence activists for model tra
 ### **2. Fine-tuning with DCO**  
 Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model to better represent historical figures in a **3D-consistent** manner.  
 
-**Fine-tuning Samples:**  
+**Fine-tuning Samples:**
+
+<table>
+  <tr>
+    <td>
+      <img src="results/finetuned_sample_datas/test_front_42.png" width="100">
+      <img src="results/finetuned_sample_datas/test_side_42.png" width="100">
+      <img src="results/finetuned_sample_datas/test_back_42.png" width="100">
+      <img src="results/finetuned_sample_datas/test_plain_42.png" width="100">
+      <br> Reconstruction of [안창호]
+    </td>
+    <td><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_full_hair.jpeg" width="200"><br> "A_DSLR_photo_of_mans_head_with_full_hair"</td>
+    <td><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair.jpeg" width="200"><br> "A_DSLR_photo_of_mans_head_with_hair"</td>
+    <td><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair_in_color.jpeg" width="200"><br> "A_DSLR_photo_of_mans_head_with_hair_in_color"</td>
+  </tr>
+</table>
+
 | Generated Output | Caption |
 |----------------|---------|
 | ![Output 1](results/finetuned_sample_datas/test_plain_42.png) | Reconstruction of [안창호] |

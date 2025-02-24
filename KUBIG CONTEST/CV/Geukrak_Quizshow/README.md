@@ -21,7 +21,7 @@ We gathered **historical images** of Korean independence activists for model tra
 **Dataset Preview:**  
 📁 `/results/`  
 - `/results/prepared_datas.jpg`
-- ![see data]("results/prepared_datas.jpeg")
+- ![see data](results/prepared_datas.jpeg)
 ---
 
 ### **2. Fine-tuning with DCO**  

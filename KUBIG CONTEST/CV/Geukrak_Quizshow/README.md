@@ -65,7 +65,7 @@ Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model
 By leveraging **Stable-DreamFusion**, we reconstructed **3D volumetric samples** from the fine-tuned model. The results demonstrate a high level of consistency in identity preservation.
 
 **Generated 3D Samples:**  
-| A_photo_of_a_burger | A_DSLR_photo_of_a_squirrel | A_DSLR_photo_of_a_bust | A_DSLR_photo_of_a_head_of_man |
+| A_photo_of_a_burger | A_DSLR_photo_of_a_squirrel | A_DSLR_photo_of_a_bust | A_DSLR_photo_of_a_head |
 |-----------|-----------|-----------|-----------|
 | ![3D Sample 1](results/dreamfusion_samples/A_photo_of_a_burger.gif) | ![3D Sample 2](results/dreamfusion_samples/A_DSLR_photo_of_a_squirrel.gif) | ![3D Sample 3](results/dreamfusion_samples/A_DSLR_photo_of_a_bust.gif) | ![3D Sample 4](results/dreamfusion_samples/A_DSLR_photo_of_a_head_of_man.gif) |
 

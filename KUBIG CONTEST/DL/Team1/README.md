@@ -20,6 +20,7 @@
      ![Image](https://github.com/user-attachments/assets/9ac33206-4941-4fdc-9276-b0367c7b8b27)
      
    - Super Resolution (Real-ESRGAN) : test data upscaling
+     
      ![Image](https://github.com/user-attachments/assets/a8ccf951-f01a-4758-9c81-2536e547f201)
   
 ### 2. Classification

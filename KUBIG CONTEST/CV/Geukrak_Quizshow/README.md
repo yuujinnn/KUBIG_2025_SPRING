@@ -5,12 +5,12 @@ Generating 3D models of historical independence activists utilizing pretrained T
 
 ## **Overview**  
 This project aims to reconstruct **3D models** of Korean independence activists using diffusion-based generative models. By **fine-tuning** a pretrained **Stable-DreamFusion** model, we generate realistic **3D representations** from limited 2D images.
+- **Our Works of Implementing Fine-tuned Model to DreamFusion** [(GitHub: wltschmrz)](https://github.com/wltschmrz/stable_dreamfusion_deprecated)  
 
 ### **Cited Works**  
 - **Stable-DreamFusion** [(GitHub: https://github.com/ashawkey/stable-dreamfusion)](https://github.com/ashawkey/stable-dreamfusion)  
 - **DCO Fine-tuning Methodology** [(GitHub: https://github.com/kyungmnlee/dco)](https://github.com/kyungmnlee/dco)  
 
-- **Our Works of Implementing Fine-tuned Model to DreamFusion** [(GitHub: wltschmrz)](https://github.com/wltschmrz/stable_dreamfusion_deprecated)  
 ---
 
 ## **Total Process**  
@@ -19,8 +19,7 @@ This project aims to reconstruct **3D models** of Korean independence activists 
 We gathered **historical images** of Korean independence activists for model training. These images were preprocessed to enhance clarity and usability.  
 
 **Dataset Preview:**  
-📁 `/results/`  
-- `/results/prepared_datas.jpeg`
+📁 `/results/prepared_datas.jpeg`
 <p align="center">
   <img src="results/prepared_datas.jpeg" alt="data" width="400">
 </p>

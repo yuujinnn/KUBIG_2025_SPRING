@@ -27,7 +27,7 @@ We gathered **historical images** of Korean independence activists for model tra
 ---
 
 ### **2. Fine-tuning with DCO**  
-Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model to better represent historical figures in a **3D-consistent** manner.  
+Using **DCO (Direct Consistency Optimization)**, we adapted a unique fine-tuning methodology for diffusion models to better represent historical facial figures with a limited amount of training data.
 
 **Fine-tuning Samples:**
 
@@ -62,7 +62,7 @@ Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model
 ---
 
 ### **3. 3D Sampling with DreamFusion**  
-By leveraging **Stable-DreamFusion**, we reconstructed **3D volumetric samples** from the fine-tuned model. The results demonstrate a high level of consistency in identity preservation.
+By leveraging **Stable-DreamFusion**, we reconstructed **3D volumetric samples** from the 2D diffusion model. The generated 3D model maintains consistency across multiple perspectives, avoiding unnatural distortions.
 
 **Generated 3D Samples:**  
 | A_photo_of_a_burger | A_DSLR_photo_of_a_squirrel | A_DSLR_photo_of_a_bust | A_DSLR_photo_of_a_head |

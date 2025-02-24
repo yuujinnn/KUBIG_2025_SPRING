@@ -1,5 +1,4 @@
 # CAT-FICIAL DECODER
-![캣피셜 디코더](images/19.PNG)
 - 멀티모달을 활용한 유사도 기반 반려 동물 영상 행동 분석 AI
 - Team 두더비(DoTheVision) 
 

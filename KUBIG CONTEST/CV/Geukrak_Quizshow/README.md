@@ -21,11 +21,9 @@ We gathered **historical images** of Korean independence activists for model tra
 **Dataset Preview:**  
 📁 `/results/`  
 - `/results/prepared_datas.jpeg`
-[](results/prepared_datas.jpeg)
+![what](results/prepared_datas.jpeg)
 ---
-<p align="center">
-  <img src="results/prepared_datas.jpeg" alt="data" width="400">
-</p>
+
 ### **2. Fine-tuning with DCO**  
 Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model to better represent historical figures in a **3D-consistent** manner.  
 

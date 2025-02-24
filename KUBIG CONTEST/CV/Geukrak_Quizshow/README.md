@@ -23,7 +23,7 @@ We gathered **historical images** of Korean independence activists for model tra
 - `/results/prepared_datas.jpg`
 <p align="center">
   <img src="results/prepared_datas.jpeg" alt="data" width="400">
-</p>
+</p> 
 ---
 
 ### **2. Fine-tuning with DCO**  

@@ -12,7 +12,7 @@ This project aims to reconstruct **3D models** of Korean independence activists 
 - **Our Works of Implementing Fine-tuned Model to DreamFusion** [(GitHub: wltschmrz)](https://github.com/wltschmrz/stable_dreamfusion_deprecated)  
 ---
 
-## **Pipeline**  
+## **Total Process**  
 
 ### **1. Data Collection for Fine-tuning**  
 We gathered **historical images** of Korean independence activists for model training. These images were preprocessed to enhance clarity and usability.  
@@ -20,7 +20,7 @@ We gathered **historical images** of Korean independence activists for model tra
 **Dataset Preview:**  
 📁 `/results/`  
 - `/results/prepared_datas.jpg`
-- ![see data](/results/prepared_datas.jpg)
+- ![see data](/results/prepared_datas.jpeg)
 ---
 
 ### **2. Fine-tuning with DCO**  
@@ -43,15 +43,15 @@ Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model
     <td align="center">Reconstructions of [Changho_An]</td>
   </tr>
   <tr>
-    <td align="center"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_full_hair.jpeg" width="250" style="display:block; margin:auto;"></td>
+    <td align="center"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_full_hair.jpeg" width="400" style="display:block; margin:auto;"></td>
     <td align="center">"A DSLR photo of [Changho_An]'s head with full hair"</td>
   </tr>
   <tr>
-    <td align="center"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair.jpeg" width="250" style="display:block; margin:auto;"></td>
+    <td align="center"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair.jpeg" width="400" style="display:block; margin:auto;"></td>
     <td align="center">"A DSLR photo of [Changho_An]'s head with hair"</td>
   </tr>
   <tr>
-    <td align="center"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair_in_color.jpeg" width="250" style="display:block; margin:auto;"></td>
+    <td align="center"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair_in_color.jpeg" width="400" style="display:block; margin:auto;"></td>
     <td align="center">"A DSLR photo of [Changho_An]'s head with hair in color"</td>
   </tr>
 </table>

@@ -29,10 +29,10 @@ Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model
 **Fine-tuning Samples:**  
 | Generated Output | Caption |
 |----------------|---------|
-| ![Output 1](results/finetuned_sample_datas/test_plain_42.jpeg) | "Reconstruction of [안창호]" |
-| ![Output 2](results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_full_hair.jpeg) | "Generated faces from text: 'A_DSLR_photo_of_mans_head_with_full_hair'" |
-| ![Output 3](results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair.jpeg) | "Generated faces from text: 'A_DSLR_photo_of_mans_head_with_hair'" |
-| ![Output 4](results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair_in_color.jpeg) | "Generated faces from text: 'A_DSLR_photo_of_mans_head_with_hair_in_color'" |
+| ![Output 1](results/finetuned_sample_datas/test_plain_42.png) | Reconstruction of [안창호] |
+| ![Output 2](results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_full_hair.jpeg) | Generated faces from text: "A_DSLR_photo_of_mans_head_with_full_hair" |
+| ![Output 3](results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair.jpeg) | Generated faces from text: "A_DSLR_photo_of_mans_head_with_hair" |
+| ![Output 4](results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair_in_color.jpeg) | Generated faces from text: "A_DSLR_photo_of_mans_head_with_hair_in_color" |
 
 ---
 
@@ -40,7 +40,7 @@ Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model
 By leveraging **Stable-DreamFusion**, we reconstructed **3D volumetric samples** from the fine-tuned model. The results demonstrate a high level of consistency in identity preservation.
 
 **Generated 3D Samples:**  
-| Example 1 | Example 2 | Example 3 |
+| A_photo_of_a_burger | A_DSLR_photo_of_a_squirrel | A_DSLR_photo_of_a_bust |
 |-----------|-----------|-----------|
 | ![3D Sample 1](results/dreamfusion_samples/A_photo_of_a_burger.gif) | ![3D Sample 2](results/dreamfusion_samples/A_DSLR_photo_of_a_squirrel.gif) | ![3D Sample 3](results/dreamfusion_samples/A_DSLR_photo_of_a_bust.gif) |
 

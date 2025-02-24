@@ -25,9 +25,13 @@
   
 ### 2. Classification
    - ViT (Vision Transformer) 기반 모델에 저해상도/고해상도 train data를 학습시킨 뒤, test data에 대한 분류 진행
-   - BEiT
-   - SwinV2
+   - BEiT (beit-base)
+   - SwinV2 (swinv2-base)
 
-## Results
+## Results (F1 score)
+- BEiT : public 0.954, private 0.962
+- SwinV2 : public 0.957, private 0.964
+
+![Image](https://github.com/user-attachments/assets/41bbfde3-325e-417a-864e-fd9d6b43e8d3)
 
 

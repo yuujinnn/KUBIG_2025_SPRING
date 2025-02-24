@@ -111,3 +111,13 @@ nvcc --version
 
 cd /workspace/stable-dreamfusion/gridencoder
 python setup.py build_ext --inplace
+```
+Configure the pip dependencies:
+```bash
+huggingface_hub==0.19.4
+diffusers==0.24.0
+accelerate==0.19.0
+transformers==4.30.2
+
+numpy==1.24.4
+```

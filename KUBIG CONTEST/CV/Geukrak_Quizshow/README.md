@@ -1,5 +1,5 @@
 # **3D Reconstruction of Independence Activists Using Stable Diffusion**  
-Generating 3D models of historical independence activists utilizing pretrained diffusion models.
+Generating 3D models of historical independence activists utilizing pretrained T2I 2D diffusion models.
 
 ---
 
@@ -7,9 +7,9 @@ Generating 3D models of historical independence activists utilizing pretrained d
 This project aims to reconstruct **3D models** of Korean independence activists using diffusion-based generative models. By **fine-tuning** a pretrained **Stable-DreamFusion** model, we generate realistic **3D representations** from limited 2D images.
 
 ### **Cited Works**  
-- **Stable-DreamFusion** [(GitHub)](https://github.com/ashawkey/stable-dreamfusion)  
-- **DCO Fine-tuning Methodology** [(GitHub)](https://github.com/kyungmnlee/dco)  
-- **Our Works of Implementing Fine-tuned Model to DreamFusion** [(GitHub)](https://github.com/wltschmrz/stable_dreamfusion_deprecated)  
+- **Stable-DreamFusion** [(GitHub: https://github.com/ashawkey/stable-dreamfusion)](https://github.com/ashawkey/stable-dreamfusion)  
+- **DCO Fine-tuning Methodology** [(GitHub: https://github.com/kyungmnlee/dco)](https://github.com/kyungmnlee/dco)  
+- **Our Works of Implementing Fine-tuned Model to DreamFusion** [(GitHub: https://github.com/wltschmrz/stable_dreamfusion_deprecated)](https://github.com/wltschmrz/stable_dreamfusion_deprecated)  
 ---
 
 ## **Pipeline**  
@@ -18,21 +18,21 @@ This project aims to reconstruct **3D models** of Korean independence activists 
 We gathered **historical images** of Korean independence activists for model training. These images were preprocessed to enhance clarity and usability.  
 
 **Dataset Preview:**  
-📁 `/data/independence_activists/`  
-- `/path/to/image1.jpg`  
-- `/path/to/image2.jpg`  
-- `/path/to/image3.jpg`  
-
+📁 `/results/`  
+- `/results/prepared_datas.jpg`
+  [data](/results/prepared_datas.jpg)
 ---
 
 ### **2. Fine-tuning with DCO**  
 Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model to better represent historical figures in a **3D-consistent** manner.  
 
 **Fine-tuning Samples:**  
-| Input Image | Generated Output | Caption |
-|------------|----------------|---------|
-| ![Sample 1](sample1.jpg) | ![Output 1](output1.jpg) | "Reconstruction of [Activist Name]" |
-| ![Sample 2](sample2.jpg) | ![Output 2](output2.jpg) | "Generated face from historical dataset" |
+| Generated Output | Caption |
+|----------------|---------|
+| ![Output 1](results/finetuned_sample_datas/test_plain_42.jpg) | "Reconstruction of [안창호]" |
+| ![Output 2](results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_full_hair.jpg) | "Generated faces from text: 'A_DSLR_photo_of_mans_head_with_full_hair'" |
+| ![Output 3](results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair.jpg) | "Generated faces from text: 'A_DSLR_photo_of_mans_head_with_hair'" |
+| ![Output 4](results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair_in_color.jpg) | "Generated faces from text: 'A_DSLR_photo_of_mans_head_with_hair_in_color'" |
 
 ---
 
@@ -42,7 +42,7 @@ By leveraging **Stable-DreamFusion**, we reconstructed **3D volumetric samples**
 **Generated 3D Samples:**  
 | Example 1 | Example 2 | Example 3 |
 |-----------|-----------|-----------|
-| ![3D Sample 1](sample1.gif) | ![3D Sample 2](sample2.gif) | ![3D Sample 3](sample3.gif) |
+| ![3D Sample 1](results/dreamfusion_samples/A_photo_of_a_burger.gif) | ![3D Sample 2](results/dreamfusion_samples/A_DSLR_photo_of_a_squirrel.gif) | ![3D Sample 3](results/dreamfusion_samples/A_DSLR_photo_of_a_bust.gif) |
 
 ---
 
@@ -65,3 +65,23 @@ Clone the repository and install dependencies:
 git clone https://github.com/wltschmrz/stable_dreamfusion_deprecated.git
 cd stable_dreamfusion_deprecated
 pip install -r requirements.txt
+
+pip uninstall torch torchvision torchaudio -y
+pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
+python -c "import torch; print(torch.__version__, torch.version.cuda, torch.cuda.is_available())"
+
+wget https://developer.download.nvidia.com/compute/cuda/11.6.2/local_installers/cuda_11.6.2_510.47.03_linux.run
+sudo sh cuda_11.6.2_510.47.03_linux.run --toolkit --silent
+
+echo 'export PATH=/usr/local/cuda-11.6/bin:$PATH' >> ~/.bashrc
+echo 'export LD_LIBRARY_PATH=/usr/local/cuda-11.6/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+echo 'export CUDA_HOME=/usr/local/cuda-11.6' >> ~/.bashrc
+
+source ~/.bashrc
+
+echo $PATH
+echo $LD_LIBRARY_PATH
+nvcc --version
+
+cd /workspace/stable-dreamfusion/gridencoder
+python setup.py build_ext --inplace

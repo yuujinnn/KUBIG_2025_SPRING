@@ -15,13 +15,13 @@
    - Data Augmentation (Resize, Horizontal Flip, Colorjitter, Cutmix)  
      ![Image](https://github.com/user-attachments/assets/d5edc9b0-8c19-448e-ab0a-4581737efd48)
      
-   - Detection (Yolov8 fine-tuning)
-     고해상도 사진에서 새를 탐지해 bounding box, contour line의 좌표를 각각 학습시킨 뒤, 저해상도 사진과 해당 좌표 label를 yolo에 fine-tuning
+   - Detection (Yolov8 fine-tuning) : 고해상도 사진에서 새를 탐지해 bounding box, contour line의 좌표를 각각 학습시킨 뒤, 저해상도 사진과 해당 좌표 label를 yolo에 fine-tuning
      
-   - Super Resolution (Real-ESRGAN)
+   - Super Resolution (Real-ESRGAN) : test data upscaling
+     ![Image](https://github.com/user-attachments/assets/e64fcd23-59ae-495e-bd05-cdc5573a71a3)
   
 ### 2. Classification
-   - ViT (Vision Transformer) 기반 모델에 train/upscale train 데이터를 학습시킨 뒤, test 데이터에 대한 분류 진행
+   - ViT (Vision Transformer) 기반 모델에 저해상도/고해상도 train data를 학습시킨 뒤, test data에 대한 분류 진행
    - BEiT v2
    - SwinV2
 

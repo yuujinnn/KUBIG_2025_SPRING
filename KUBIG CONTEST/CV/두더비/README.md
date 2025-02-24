@@ -12,7 +12,7 @@
 
 
 - AIHUB 반려동물 구분을 위한 동물 영상 데이터
-- CAT 폴더만 활용
+- CAT 폴더 활용
 - 이미지, 라벨링 데이터로 구성
 - Arch, Armstretch, Footpush, Getdown, Grooming, Heading, Laydown, Lying, Roll, Sitdown, Tailing, Walkrun 항목으로 구성
 

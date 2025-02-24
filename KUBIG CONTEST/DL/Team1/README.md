@@ -12,7 +12,7 @@
 
 ## Tasks
 1. Preprocessing
-   - Data Augmentation (Resize, Horizontal Flip, Colorjitter, Cutmix)
+   - Data Augmentation (Resize, Horizontal Flip, Colorjitter, Cutmix)  
      ![Image](https://github.com/user-attachments/assets/d5edc9b0-8c19-448e-ab0a-4581737efd48)
      
    - Detection (Yolov8 fine-tuning)

@@ -10,7 +10,7 @@
 
 1. 저장소 클론
 ```bash
-git clone https://github.com/seo-yeonkang/liar_game
+git clone https://github.com/seo-yeonkang/liar_game-temaver
 cd liar-game
 ```
 2. 가상환경 생성 및 활성화
@@ -25,16 +25,16 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-4. 게임 실행
+4. OpenAI API 키 설정
+- OpenAI API를 사용하려면 환경 변수로 API 키를 설정해야 합니다.
+# Windows (PowerShell)
+$env:OPENAI_API_KEY="your_api_key_here"
+# macOS/Linux (터미널)
+export OPENAI_API_KEY="your_api_key_here"
+5. 게임 실행
 ```bash
 streamlit run app.py
 ```
-
-### OpenAI API 키 입력
--게임 실행 후 화면에서 OpenAI API 키를 입력하세요.
--API 키는 비밀번호 형태로 안전하게 처리됩니다.
--게임 세션이 종료되면 API 키를 다시 입력해야 합니다.
-
 
 
 ## 게임 시작하기

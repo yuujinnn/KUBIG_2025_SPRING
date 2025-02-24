@@ -43,6 +43,34 @@ Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model
   </tr>
 </table>
 
+<table>
+  <tr>
+    <th>Generated Output</th>
+    <th>Text Caption</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="results/finetuned_sample_datas/test_front_42.png" width="120">
+      <img src="results/finetuned_sample_datas/test_side_42.png" width="120">
+      <img src="results/finetuned_sample_datas/test_back_42.png" width="120">
+      <img src="results/finetuned_sample_datas/test_plain_42.png" width="120">
+    </td>
+    <td>Reconstruction of [Changho An]</td>
+  </tr>
+  <tr>
+    <td><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_full_hair.jpeg" width="200"></td>
+    <td>"A_DSLR_photo_of_[Changho An]'s_head_with_full_hair"</td>
+  </tr>
+  <tr>
+    <td><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair.jpeg" width="200"></td>
+    <td>"A_DSLR_photo_of_[Changho An]'s_head_with_hair"</td>
+  </tr>
+  <tr>
+    <td><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair_in_color.jpeg" width="200"></td>
+    <td>"A_DSLR_photo_of_[Changho An]'s_head_with_hair_in_color"</td>
+  </tr>
+</table>
+
 | Generated Output | Caption |
 |----------------|---------|
 | ![Output 1](results/finetuned_sample_datas/test_plain_42.png) | Reconstruction of [안창호] |

@@ -19,7 +19,8 @@ We gathered **historical images** of Korean independence activists for model tra
 
 **Dataset Preview:**  
 📁 `/results/`  
-- `/results/prepared_datas.jpg` [see data](/results/prepared_datas.jpg)
+- `/results/prepared_datas.jpg`
+- ![see data](/results/prepared_datas.jpg)
 ---
 
 ### **2. Fine-tuning with DCO**  
@@ -34,52 +35,24 @@ Using **DCO (DreamFusion Control Optimization)**, we adapted the diffusion model
   </tr>
   <tr>
     <td align="center">
-      <img src="results/finetuned_sample_datas/test_front_42.png" width="150" style="display:block; margin:auto;">
-      <img src="results/finetuned_sample_datas/test_side_42.png" width="150" style="display:block; margin:auto;">
-      <img src="results/finetuned_sample_datas/test_back_42.png" width="150" style="display:block; margin:auto;">
-      <img src="results/finetuned_sample_datas/test_plain_42.png" width="150" style="display:block; margin:auto;">
+      <img src="results/finetuned_sample_datas/test_front_42.png" width="100" style="display:block; margin:auto;">
+      <img src="results/finetuned_sample_datas/test_side_42.png" width="100" style="display:block; margin:auto;">
+      <img src="results/finetuned_sample_datas/test_back_42.png" width="100" style="display:block; margin:auto;">
+      <img src="results/finetuned_sample_datas/test_plain_42.png" width="100" style="display:block; margin:auto;">
     </td>
-    <td align="center">Reconstruction of [Changho An]</td>
+    <td align="center">Reconstructions of [Changho_An]</td>
   </tr>
   <tr>
     <td align="center"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_full_hair.jpeg" width="250" style="display:block; margin:auto;"></td>
-    <td align="center">"A_DSLR_photo_of_[Changho An]'s_head_with_full_hair"</td>
+    <td align="center">"A DSLR photo of [Changho_An]'s head with full hair"</td>
   </tr>
   <tr>
     <td align="center"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair.jpeg" width="250" style="display:block; margin:auto;"></td>
-    <td align="center">"A_DSLR_photo_of_[Changho An]'s_head_with_hair"</td>
+    <td align="center">"A DSLR photo of [Changho_An]'s head with hair"</td>
   </tr>
   <tr>
     <td align="center"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair_in_color.jpeg" width="250" style="display:block; margin:auto;"></td>
-    <td align="center">"A_DSLR_photo_of_[Changho An]'s_head_with_hair_in_color"</td>
-  </tr>
-</table>
-
-<table style="width:100%; text-align:center;">
-  <tr>
-    <th style="text-align:center;">Generated Output</th>
-    <th style="text-align:center;">Text Caption</th>
-  </tr>
-  <tr>
-    <td style="text-align:center;">
-      <img src="results/finetuned_sample_datas/test_front_42.png" width="120">
-      <img src="results/finetuned_sample_datas/test_side_42.png" width="120">
-      <img src="results/finetuned_sample_datas/test_back_42.png" width="120">
-      <img src="results/finetuned_sample_datas/test_plain_42.png" width="120">
-    </td>
-    <td style="text-align:center;">Reconstructions of [Changho An]</td>
-  </tr>
-  <tr>
-    <td style="text-align:center;"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_full_hair.jpeg" width="250"></td>
-    <td style="text-align:center;">"A_DSLR_photo_of_[Changho An]'s_head_with_full_hair"</td>
-  </tr>
-  <tr>
-    <td style="text-align:center;"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair.jpeg" width="250"></td>
-    <td style="text-align:center;">"A_DSLR_photo_of_[Changho An]'s_head_with_hair"</td>
-  </tr>
-  <tr>
-    <td style="text-align:center;"><img src="results/finetuned_sample_datas/iter1000_A_DSLR_photo_of_mans_head_with_hair_in_color.jpeg" width="250"></td>
-    <td style="text-align:center;">"A_DSLR_photo_of_[Changho An]'s_head_with_hair_in_color"</td>
+    <td align="center">"A DSLR photo of [Changho_An]'s head with hair in color"</td>
   </tr>
 </table>
 

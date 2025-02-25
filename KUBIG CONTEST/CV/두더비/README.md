@@ -63,11 +63,11 @@
   
   - 4차원 데이터 : Channel, Width, Height + Frames 까지 총 4차원의 데이터를 다룸
     
-    ![4차원 사진](images/20.PNG)
+    ![image](https://github.com/user-attachments/assets/93e86271-2bed-4067-858a-a2b092cb2e70)
 
  - Mean Pooling : 비디오를 다루는 모델을 찾는 것에 어려움이 있어서 분할된 프레임들을 mean pooling하는 방식으로 진행
     
-    ![mean pooling 사진](images/21.PNG)
+    ![image](https://github.com/user-attachments/assets/c873d105-383e-4be5-99c9-a095e2b8bff0)
 
  - Fine Tuning : 데이터가 비디오 특징을 더 잘 파악할 수 있도록 fine tuning 진행
 

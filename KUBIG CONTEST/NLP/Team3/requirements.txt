@@ -1,0 +1,12 @@
+streamlit
+openai
+chromadb
+beautifulsoup4
+requests
+lxml
+python-dotenv
+feedparser
+selenium
+pytz
+numpy
+pandas

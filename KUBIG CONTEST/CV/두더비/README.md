@@ -65,11 +65,11 @@
     
     ![image](https://github.com/user-attachments/assets/93e86271-2bed-4067-858a-a2b092cb2e70)
 
- - Mean Pooling : 비디오를 다루는 모델을 찾는 것에 어려움이 있어서 분할된 프레임들을 mean pooling하는 방식으로 진행
+  - Mean Pooling : 비디오를 다루는 모델을 찾는 것에 어려움이 있어서 분할된 프레임들을 mean pooling하는 방식으로 진행
     
     ![image](https://github.com/user-attachments/assets/9d974622-ca58-407b-92cc-22e5c5e79c7d)
 
- - Fine Tuning : 데이터가 비디오 특징을 더 잘 파악할 수 있도록 fine tuning 진행
+  - Fine Tuning : 데이터가 비디오 특징을 더 잘 파악할 수 있도록 fine tuning 진행
 
 **[Limitations]**
 - 영상의 맥락을 파악해서 행동을 요약해주는 대신 프레임들의 평균으로 요약

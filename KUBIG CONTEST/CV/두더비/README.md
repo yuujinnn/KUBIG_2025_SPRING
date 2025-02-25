@@ -3,30 +3,26 @@
 - Team 두더비(DoTheVision) 
 
 ## 1. Overview
-
+- 
 
 ## 2. Dataset
 
 **[Overview]**
-![데이터 출처](images/16.PNG)
-![데이터 코드](images/24.PNG)
-
-
 
 - AIHUB 반려동물 구분을 위한 동물 영상 데이터
 - CAT 폴더 활용
 - 이미지, 라벨링 데이터로 구성
 - Arch, Armstretch, Footpush, Getdown, Grooming, Heading, Laydown, Lying, Roll, Sitdown, Tailing, Walkrun 항목으로 구성
 
+![데이터 출처](images/16.PNG)
 
 **[Preprocessing the Data]**
 - 이미지 전처리 : 영상 프레임 수집 및 동기화, 이미지 변환, 이미지 패딩
-- 텍스트 전처리 : 레이블 생성 및 번역, 텍스트 토큰화 및 패딩
+- 텍스트 전처리 : 레이블 생성 및 번역(DeepL), 텍스트 토큰화 및 패딩
 
 
+## 3. Model Architecture
 
-## 4. Model Architecture
----------
 **[기존 VisionGPT]**
 
 - ViT와 GPT의 구조를 결합하여 이미지를 처리하는 멀티모달
@@ -50,19 +46,16 @@
   - key/value(vit) : vit에서 생성한 이미지 임베딩을 key와 value로 사용
 - 결론적으로 vit에서 생성한 이미지 임베딩을 gpt가 참조할 수 있도록 연결
 
-![모델 사진](images/18.PNG)
+![image](https://github.com/user-attachments/assets/47eae9e8-1872-4f1e-8ca7-791269a9900e)
 
 
-
-## 5. Model Training
----------
+## 4. Model Training
 
 
-## 6. Results
----------
+## 5. Results
 
 ## 6. About the Project
----------
+
 **[Significance]**
 
 - 기존에는 이미지 데이터를 활용한 멀티모달이었는데 이를 확장하여 비디오 데이터도 처리가 가능하도록 가공

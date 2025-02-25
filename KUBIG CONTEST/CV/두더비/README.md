@@ -67,7 +67,7 @@
 
  - Mean Pooling : 비디오를 다루는 모델을 찾는 것에 어려움이 있어서 분할된 프레임들을 mean pooling하는 방식으로 진행
     
-    ![image](https://github.com/user-attachments/assets/c873d105-383e-4be5-99c9-a095e2b8bff0)
+    ![image](https://github.com/user-attachments/assets/9d974622-ca58-407b-92cc-22e5c5e79c7d)
 
  - Fine Tuning : 데이터가 비디오 특징을 더 잘 파악할 수 있도록 fine tuning 진행
 

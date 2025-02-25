@@ -3,7 +3,8 @@
 - Team 두더비(DoTheVision) 
 
 ## 1. Overview
-- 
+- 바쁜 현대인들의 일상 속에서 집을 지키는 반려동물의 생활이 궁금할 때 도움을 주기 위함
+- 홈캠 영상을 계속 보고 있는 대신, 영상을 이용해 텍스트로 된 설명을 추출하면 더욱 빠르게 무엇을 하고 있는지 알 수 있다! 
 
 ## 2. Dataset
 
@@ -37,10 +38,7 @@
   - 3. 벡터들을 평균, 하나의 벡터로 변환
   - 최종 벡터를 GPT에 넣어서 최종 비디오의 설명 생성
 
-![모델 사진](images/17.PNG)
-
-![image](https://github.com/user-attachments/assets/b1c05c3b-38bf-48b0-b19e-d440e0878649)
-
+![image](https://github.com/user-attachments/assets/bfa96d8c-b19b-4db9-9719-8c02f0f138e9)
 
 **[멀티모달 구조]**
 
@@ -74,6 +72,10 @@
 
  [ Fine Tuning ]    
 - 데이터가 비디오 특징을 더 잘 파악할 수 있도록 fine tuning 진행
+
+**[Limitations]**
+- 영상의 맥락을 파악해서 행동을 요약해주는 대신 프레임들의 평균으로 요약
+- 비디오 데이터의 부재로 인해 프레임 데이터를 사용  
   
 
 **[Future Work]**

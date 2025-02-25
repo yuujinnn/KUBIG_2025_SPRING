@@ -39,6 +39,9 @@
 
 ![모델 사진](images/17.PNG)
 
+![image](https://github.com/user-attachments/assets/b1c05c3b-38bf-48b0-b19e-d440e0878649)
+
+
 **[멀티모달 구조]**
 
 - Cross Attention에서 GPT와 ViT 사이의 정보 교환이 이루어짐

@@ -61,18 +61,15 @@
 
 - 기존에는 이미지 데이터를 활용한 멀티모달이었는데 이를 확장하여 비디오 데이터도 처리가 가능하도록 가공
   
-  [ 4차원 데이터 ]
-  - Channel, Width, Height + Frames 까지 총 4차원의 데이터를 다룸
+  - 4차원 데이터 : Channel, Width, Height + Frames 까지 총 4차원의 데이터를 다룸
     
-  ![4차원 사진](images/20.PNG)
+    ![4차원 사진](images/20.PNG)
 
- [ Mean Pooling ]
-  - 비디오를 다루는 모델을 찾는 것에 어려움이 있어서 분할된 프레임들을 mean pooling하는 방식으로 진행
+ - Mean Pooling : 비디오를 다루는 모델을 찾는 것에 어려움이 있어서 분할된 프레임들을 mean pooling하는 방식으로 진행
     
-  ![mean pooling 사진](images/21.PNG)
+    ![mean pooling 사진](images/21.PNG)
 
- [ Fine Tuning ]    
-  - 데이터가 비디오 특징을 더 잘 파악할 수 있도록 fine tuning 진행
+ - Fine Tuning : 데이터가 비디오 특징을 더 잘 파악할 수 있도록 fine tuning 진행
 
 **[Limitations]**
 - 영상의 맥락을 파악해서 행동을 요약해주는 대신 프레임들의 평균으로 요약
